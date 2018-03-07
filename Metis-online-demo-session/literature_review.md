@@ -52,7 +52,7 @@ Hierarchical clustering
    - Complete: (Maximal). Largest pairwise distance between observations of the 2 clusters
    - Average: Average pairwise distance between observations of the 2 clusters
    - Single: (Minimal) Smallest pairwise distance between observations of the 2 clusters
-   - Centroid: Compute centroid for each cluster, compaire centroids pair-wise
+   - Centroid: Compute centroid for each cluster, compare centroids pair-wise
   - Linkage issues:
    - Single: Can lead to long, trailing clusters
    - Centroid: Inversion issue, two clusters can be fused below where clusters were created
