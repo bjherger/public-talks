@@ -64,3 +64,5 @@ Talk:
 
  - Yoav Goldberg
  - Deep Learning Book
+ - LSTM / GRU notebook
+ - Embedding paper
