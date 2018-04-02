@@ -7,6 +7,7 @@
  - Data Science & Project Management: Lessons from managing Data Science projects at a Fortune 100 company
  - Agile for Data Scientists: Or, stepping stones to a happier, more productive team
  - Machine Learning with Unstructured Text
+ - Passwords in plain sight: Using Deep Learning to find sensitive data
 
 ## Conferences to apply to
 
