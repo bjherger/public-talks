@@ -1,4 +1,4 @@
-# Drafting
+# Meta
 
 ## Audience
 
@@ -66,13 +66,14 @@ Beyond Regex: Using Deep Learning to find sensitive data in pastebins
 
 ## Abstract
 
-Pastebins and large data dumps can contain troves of interesting fields. However, historically unstructured data has been mined using regular expressions, pattern matching heuristics. However deep learning approaches provide for a more robust approach to learning and extracting non-patterned data formats (e.g. passwords, usernames, addresses). 
+Pastebins and large data dumps can contain troves of interesting fields, historically unstructured data has been mined using regular expressions, and pattern matching heuristics. However, deep learning approaches provide for a more robust approach to learning and extracting data these techniques can't capture, such as pattern-less formats (e.g. passwords, usernames, addresses). 
 
 ## Presentation outline
 
+ - XKCD Comic
  - Introduction 
-   - Potential use cases
-   - Context setting
+   - Background / setting context
+   - Use cases
  - Historical approaches
    - Regex based
    - Pattern matching / boostrapping
@@ -80,9 +81,13 @@ Pastebins and large data dumps can contain troves of interesting fields. However
  - Machine Learning Approaches
    - Named entity recognition
    - Outlier detection (word level)
-   - Train classifier
+   - Deep learing classifier
    - Chacter level word embeddings
+   - Auto-encoder
  - Recap
+   - Intro / why
+   - Historical / shortcomings
+   - ML / strengths
  - Future work
    - Train on large data sets of compromised credentials
    - Segment by source document file type
