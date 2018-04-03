@@ -81,7 +81,7 @@ Pastebins and large data dumps can contain troves of interesting fields, histori
  - Machine Learning Approaches
    - Named entity recognition
    - Outlier detection (word level)
-   - Deep learing classifier
+   - Deep learning classifier
    - Chacter level word embeddings
    - Auto-encoder
  - Recap
