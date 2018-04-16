@@ -70,7 +70,7 @@ Large, complex projects are fulfilling, but also difficult to build. Agile devel
 
 As a rare software engineer & scrum master, I've learned how to guide engineers through the agile process. Additionally, through my experience leading Machine Learning projects at a large company, I've picked up practical tips and insights that keep teammates challenged & productive.
 
-During this talk, we'll work through the roles, meetings, and artifacts that comprise Agile development, and how to make agile work for you. Further, we'll learn how to communicate what you've learned to your fellow engineers, and keep everyone rollin'.
+During this talk, you'll learn the roles, meetings, and artifacts that comprise Agile development, and how to modify agile for your environment. Further, we'll learn how to communicate what you've learned to your fellow engineers, and keep everyone rollin'.
 
 ### What attendees will learn
 
@@ -107,10 +107,10 @@ I'm writing a library that can smartly & robustly handle common data types as de
 
 Deep learning is a powerful toolset, but I've been frustrated by lack of tools and techniques to pair it with tabular data. In response, I'm building one. 
 
-We'll touch on :
+You'll learn:
 
  - Why non-numerical data types are difficult for most algorithms (one hot encoding, manual feature extraction, etc)
- - Practical techniques for using categorical, boolean, datetime, and geographic data
+ - Practical techniques for using categorical, boolean, datetime, and geographic data (with starter code!)
  - How to quickly and efficiently prototype and iterate on deep learning models
 
 Feedback from this talk will also help me create and prioritize features for my work-in-progress package, AutoDL. 
