@@ -75,7 +75,7 @@ During this talk, you'll learn the roles, meetings, and artifacts that comprise 
 
 ### What attendees will learn
 
-During this talk, we'll work through the roles, meetings, and artifacts that comprise Agile development, and how to make agile work for you. Further, we'll learn how to communicate what you've learned to your fellow engineers, and keep everyone rollin'.
+During this talk, you'll learn the roles, meetings, and artifacts that comprise Agile development, and how to make agile work for you. Further, we'll learn how to communicate what you've learned to your fellow engineers, and keep everyone rollin'.
 
 
 ### Speaker and talk history
@@ -122,12 +122,13 @@ We'll cover how to approach use different data types in Deep Learning, and how t
 
 ### Speaker and talk history
 
-None available for this talk (yet). Work in progress package repo available upon request
+Brendan Herger has given talks at conferences including Strata, PyData, Data Intelligence Conf, Data Day Austin, the Sentiment Analysis Symposium, and others. This is a new talk, covering a work in progress package. 
+
+
 
 ### Link to slides / video
 
-Brendan Herger has given talks at conferences including Strata, PyData, Data Intelligence Conf, Data Day Austin, the Sentiment Analysis Symposium, and others. This is a new talk, covering a work in progress package. 
-
+None available for this talk (yet). Work in progress package repo available upon request
 
 ### Deliver at Meetup?
 
