@@ -63,7 +63,8 @@ Agile, for Engineers
 
 ### Brief description
 
- Project management is incredibly useful to keep projects moving and teams happy. It's also a very different mindset than hands on keyboard coding. We'll work through the roles, meetings, and artifacts that comprise Agile development, and how to make agile work for you.
+Project management is incredibly useful to keep projects moving and teams happy. It's also a very different mindset than hands on keyboard coding. You'll learn the roles, meetings, and artifacts that comprise Agile development, common implementations, and how to make agile work for you.
+
 ### Abstract
 
 Large, complex projects are fulfilling, but also difficult to build. Agile development is a time-honed process for keeping projects moving, and teams happy. 
@@ -101,7 +102,7 @@ Deep Learning & Data Types
 
 ### Brief description
 
-I'm writing a library that can smartly & robustly handle common data types as deep learning inputs. We'll walk through why categorical, datetime, boolean, and other data types are difficult, practical ways of handling these data types, and how to make DL more approachable
+I'm writing a library built on Keras and Pandas that can smartly & robustly handle common data types as deep learning inputs. We'll walk through why categorical, datetime, boolean, and other data types are difficult, practical ways of handling these data types, and how to make DL more approachable. 
 
 ### Abstract
 
@@ -113,7 +114,7 @@ You'll learn:
  - Practical techniques for using categorical, boolean, datetime, and geographic data (with starter code!)
  - How to quickly and efficiently prototype and iterate on deep learning models
 
-Feedback from this talk will also help me create and prioritize features for my work-in-progress package, AutoDL. 
+Feedback from this talk will also help me create and prioritize features for my work-in-progress package AutoDL, which implements these methods in Pandas and Keras. 
 
 ### What attendees will learn
 
