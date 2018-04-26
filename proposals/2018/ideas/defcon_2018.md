@@ -31,7 +31,7 @@ Co-Speaker Phone Number(s): N/A
 
 Date of Submission: 2018-04-27
 
-Presentation Title: TODO
+Presentation Title: Beyond Regex: Using Deep Learning to find sensitive data in pastebins
 
 Is there a demonstration? No
 
@@ -59,11 +59,41 @@ Is your ability or willingness to speak predicated on your talk being accepted a
 
 ### Abstract
 
+Pastebins and large data dumps can contain troves of interesting fields, historically unstructured data has been mined using regular expressions, and pattern matching heuristics. However, deep learning approaches provide for a more robust approach to learning and extracting data these techniques can't capture, such as pattern-less formats (e.g. passwords, usernames, addresses). 
+
+
 ### Speaker Bio(s)
+
+Brendan Herger is a Machine Learning Engineer who has built Machine Learning & Natural Language Processing platforms for catch credit card fraud, insider threat, and legal document processing. He specializes in using Machine Learning for domains with adversarial elements and large unstructured data sets.
 
 ### Outline
 
+ - XKCD Comic
+ - Introduction 
+   - Background / setting context
+   - Use cases
+ - Historical approaches
+   - Regex based
+   - Pattern matching / boostrapping
+   - Shortcomings
+ - Machine Learning Approaches
+   - Named entity recognition
+   - Outlier detection (word level)
+   - Deep learning classifier
+   - Chacter level word embeddings
+   - Auto-encoder
+ - Recap
+   - Intro / why
+   - Historical / shortcomings
+   - ML / strengths
+ - Future work
+   - Train on large data sets of compromised credentials
+   - Segment by source document file type
+   - Look for new data formats
+
 ### Scheduling Information
+
+No requirements
 
 ### Equipment requirements
 
