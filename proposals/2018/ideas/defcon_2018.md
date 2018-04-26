@@ -108,6 +108,3 @@ As detailed above, I, Brendan Herger, have read and agree to the Grant of Copyri
 
 PRESS CONTACT
 I, Brendan Herger understand that DEF CON's official Press Liaison & Staff may contact me. I consent to be contacted in order to arrange interviews with the media. My contact information will not be given to third parties without my consent. No, I Brendan Herger, don't want to be contacted by DEF CON's press staff for any reason. Our policies, including our privacy policy are located here: https://www.defcon.org/html/links/dc-policy.html
-
-# Proposals
-
