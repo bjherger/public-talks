@@ -37,7 +37,7 @@ Scrum is a set of roles, meetings and artifacts which allow teams to work happil
  - Regularize workload
  - Keep projects tightly tied to customer need
 
-As [many](https://www.youtube.com/watch?v=9TycLR0TqFA) [great](https://www.atlassian.com/agile/scrum) [introductions](https://www.scrum.org/resources/introduction-scrum) to Scrum are available, I'll focus instead on the high level goals of the paradigm. 
+As [many](https://www.youtube.com/watch?v=9TycLR0TqFA) [great](https://www.atlassian.com/agile/scrum) [introductions](https://www.scrum.org/resources/introduction-scrum) to Scrum are available, I'll focus instead on the high level goals of the paradigm, and give an in-depth intro in a future blog post. 
 
 A core principle of scrum is to quickly build a product, identify feedback, and iterate on the product. This avoids 
 building needless features ([clippy](https://en.wikipedia.org/wiki/Office_Assistant)), or getting to attached to an inefficient approach. 
@@ -81,5 +81,10 @@ Variable data quality is an issue that is unique to Data Science, and doesn't ef
 
 Communicate uncertainty
 
-Additionally, 
+Additionally, Data Science's highly iterative process makes nailing down deliverables and delivery dates difficult. Rather than a weakness, I've found it to partner with clients to make this a strength.
+
+I'd highly recommend bringing clients into the feedback loop, to help tailor future work
+
+ - Yes: Get regular feedback and guidance from clients, with tasks such as `Provide v0.3 model to policy maker, get feedback on what works well`, and or `Get partner feedback on current stable of models, to inform future iterations`
+ - No: Build long term, immovable project plans, or create stacks of tasks that rely on eachother and could become derailed. 
 
