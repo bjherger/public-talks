@@ -58,12 +58,28 @@ While no two teams are the same, there are a few tips and tricks that I've found
 
 Start with a bang
 
+Give the team context. Let them know why your organization is investing Scrum, the benefits of Scrum, and how long you expect the learning curve to be
+
+ - Yes: Have a kick off meeting, and let people know that there will be a learning curve.
+ - No: Expect that the team will immediately 'get it', or that they will be as productive while learning a new project management style
+
 
 Make milestones tangible
+
+Data Science is often an interative process, with unknown data issues lurking at every step. This is an opportunity to focus on tasks, rather than results when laying out milestones. 
+
+ - Yes: Create tangible milestones, such as `train an baseline model`.
+ - No: Define milestones with large possible time range, such as `train a model with .98 test AUC`
 
 
 Explicitly address data quality
 
+Variable data quality is an issue that is unique to Data Science, and doesn't effect other reals of Software Engineering in quite the same way. It's helpful to allocate a bit of extra effort to adress this. 
+
+ - Yes: Create tasks specific to data QA, and building POC models to gain domain experience, such as `Evaluate schema and nulls of sales data set`, or `build a prototype transformation pipeline, to inform final pipeline design`
+ - No: Roll data QA into other tasks, such as `Gain access to data set *and* build baseline model`
 
 Communicate uncertainty
+
+Additionally, 
 
