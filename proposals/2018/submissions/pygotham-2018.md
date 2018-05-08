@@ -2,6 +2,25 @@
 
 ## Audience
 
+Audience
+
+ - Strong mix of backgrounds
+ - Learning to very technical
+ - Likely have an interest in ML / DL
+ - Likely have seen many 'intro to DL' talks
+
+CFP reviewers
+
+ - Strong community leaders
+ - Experience putting together Meetups and conferences
+ - Hold SE position at large(-ish) companies
+
+## Goals
+
+ - Gain popularity for framework
+ - Get feedback for where to emphasize development
+ - Emphasize Metis's domain knowledge and value
+
 # Proposal
 
 ## Title
