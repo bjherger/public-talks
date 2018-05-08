@@ -2,7 +2,6 @@
 
 ## Audience
 
-
 # Proposal Ideas
 
 Format from [https://www.defcon.org/html/defcon-26/dc-26-cfp-form.html](https://www.defcon.org/html/defcon-26/dc-26-cfp-form.html)
@@ -86,6 +85,40 @@ Brendan Herger is a Machine Learning Engineer who has built Machine Learning & N
    - Intro / why
    - Historical / shortcomings
    - ML / strengths
+ - Future work
+   - Train on large data sets of compromised credentials
+   - Segment by source document file type
+   - Look for new data formats
+
+### Outline, v2
+
+ - XKCD Comic (Comic relief, warm opening)
+ - Introduction 
+
+   - Intro / why: Lots of NPI / interesting data in text streams
+   - Historical / shortcomings: Regex requires a pattern
+   - ML / strengths: Can find / rank interesting strings / words
+
+   - Background / setting context: Text is unstructured. Lots of valuable info (such as passwords, NPI data) can be found in unstructured text
+   - Use cases
+
+ - Historical approaches
+   - Regex based: E.g. Look for credit card numbers w/ Regex
+   - Pattern matching / boostrapping: E.g. Look for credit card numbers w/ Regex, evaluate including near matches
+   - Shortcomings: We need a regex / pattern!
+
+ - Machine Learning Approaches
+   - Named entity recognition: Method for parsing proper nounts
+   - Outlier detection (word level): Find uncommon words / tokens (such as passwords)
+   - Deep learning classifier: Using DL and NLP to determine interesting or not
+   - Chacter level word embeddings
+   - Auto-encoder: Train a model to re-create in the input data, and provide an outlier score for bad re-creation
+   
+ - Recap
+   - Intro / why: Lots of NPI / interesting data in text streams
+   - Historical / shortcomings: Regex requires a pattern
+   - ML / strengths: Can find / rank interesting strings / words
+ 
  - Future work
    - Train on large data sets of compromised credentials
    - Segment by source document file type
