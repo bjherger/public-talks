@@ -1,10 +1,20 @@
 # Part 0: Intro
 
+## Why
+
+Deep Learning is a powerful toolset, but it also involves a steep learning curve. For those new to Machine Learning, there are many levers to learn and different approaches to 
+
+it is a radical paradigm shift 
+
 ## What is a layer?
 
- - Difference between DL book and Keras Layers
- - What properties do all layers have?
- - What changes between layer types
+### What properties do all layers have?
+
+
+
+### What changes between layer types
+
+- Difference between DL book and Keras Layers
 
 ## 1D vs 2D
 
