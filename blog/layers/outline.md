@@ -2,26 +2,53 @@
 
 ## Why
 
-Deep Learning is a powerful toolset, but it also involves a steep learning curve. For those new to Machine Learning, there are many levers to learn and different approaches to 
+Deep Learning is a powerful toolset, but it also involves a steep learning curve and a radical paradigm shift.
 
-it is a radical paradigm shift 
+For those new to Machine Learning, there are many levers to learn and different approaches to try out. Even more frustratingly, designing deep learning architectures can be equal parts art and science, without some of the rigorous backing found in longer studied, linear models. 
 
-## What is a layer?
+## FAQ
+
+### What is a layer?
+
+A layer is an atomic unit, within a deep learning architecture. Networks are generally composed by adding successive layers. 
 
 ### What properties do all layers have?
 
+Almost all layers will have :
 
+ - Weights (free parameters), which create a linear combination of the outputs from the previous layer. 
+ - An activation, which allows for non-linearities
+ - A bias node, an equivalent to one incoming variable that is always set to `1`
 
-### What changes between layer types
+### What changes between layer types?
 
-- Difference between DL book and Keras Layers
+There are many different layers for many different use cases. Different layers may allow for combining adjacent inputs (convolutional layers), or dealing with multiple timesteps in a single observation (RNN layers). 
+
+### Difference between DL book and Keras Layers
+
+Frustratingly, there is some inconsistency in how layers are refered to and utilized. For example, the 
+[Deep Learning Book](http://www.deeplearningbook.org/) commonly refers to  archictures (whole networks), rather than specific layers. For example, their discussion of a convolutional neural network focuses on the convolutional layer as a sub-component of the network. 
 
 ## 1D vs 2D
+
+Some layers have 1D and 2D varieties. A good rule of thumb is:
 
  - 1D: Temporal (time series, text)
  - 2d: Spatial (image)
 
 ## Cheat sheet
+
+| Layer         | Type        | Data Types               | Weights from last layer                       | Comment                                                                                    | Further Reading                                                                | Keras docs | Comment |
+|---------------|-------------|--------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------|---------|
+| Input         | Standard    | All                      | There are none!                               |                                                                                            |                                                                                |            |         |
+| Embedding     | Standard    | Categorical, text        | OHE Categorical input-> vector                | Word2Vec is an example of an embedding                                                     | https://arxiv.org/abs/1604.06737                                               |            |         |
+| Dense         | Standard    | All                      | Get fed to each neuron                        |                                                                                            | http://www.deeplearningbook.org/contents/mlp.html                              |            |         |
+| Dropout       | Standard    | Most                     | Get fed to each neuron, with some probability | Useful for regularization                                                                  | http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf            |            |         |
+| Convolutional | Specialized | Text, time series, image | Adjacent weights get combined                 | Foundational for computer vision. Generally paired w/ Max Pooling                          | http://www.deeplearningbook.org/contents/convnets.html                         |            |         |
+| Max Pooling   | Specialized | Text, time series, image | Take max of adjacent weights                  | Foundational for computer vision. Generally paired w/ Convolutional                        | http://www.deeplearningbook.org/contents/convnets.html                         |            |         |
+| RNN           | Specialized | Text, time series        | Each ‘timestep’ gets fed in order             | Generally replaced w/ LSTM                                                                 | https://arxiv.org/pdf/1412.3555v1.pdf                                          |            |         |
+| LSTM          | Specialized | Text, time series        | Each ‘timestep’ gets fed in order             | Smart improvement over RNN, to avoid vanishing gradients                                   | http://colah.github.io/posts/2015-08-Understanding-LSTMs/                      |            |         |
+| Bidirectional | Specialized | Text, time series        | Get passed on both forwards and backwards     | Layer wrapper that gives time steps forwards and backwards. Standard for RNN / LSTM layers | https://pdfs.semanticscholar.org/4b80/89bc9b49f84de43acc2eb8900035f7d492b2.pdf |            |         |
 
 # Part 1: Standard layers
 
@@ -81,3 +108,5 @@ it is a radical paradigm shift
  - Avoid issue of exploding / vanishing gradients
 
 ## Utility layers
+
+ - There for utility use!
