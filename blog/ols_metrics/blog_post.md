@@ -2,6 +2,10 @@
 
 **tl;dr:** Cheat sheet for linear regression metrics, and common approaches to improving metrics 
 
+![Rexthor](resources/linear_regression_2x.png)
+
+*One of the many reasons we care about model evaluation. Image courtesy the fantastic [XKCD](https://xkcd.com/1725/)*
+
 ## Intro
 
 I'll cut to the chase; linear regression is very well studied, and there are many, many metrics and model statistics
