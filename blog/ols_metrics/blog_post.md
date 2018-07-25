@@ -1,4 +1,4 @@
-# Model Evaluation Cheat Sheet: Linear Regression 
+# Cheat Sheet: Linear Regression Model Evaluation
 
 **tl;dr:** Cheat sheet for linear regression metrics, and common approaches to improving metrics 
 
