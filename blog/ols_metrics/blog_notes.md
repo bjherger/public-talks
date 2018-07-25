@@ -40,6 +40,8 @@
 
 ## Cheat sheet
 
+![Cheat sheet](resources/cheat_sheet.jpg)
+
 ### Correcting issues
 
 What happens when your metrics aren't where you'd like them to be? Then, the hunt is afoot!
@@ -52,5 +54,3 @@ While model building is more of an art than a science, below are a few helpful (
  - Adding polynomial terms
  - Including other features
  - Using more data (bigger training set)
-
-## Further reading
