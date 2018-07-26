@@ -16,7 +16,7 @@ I've studied classical mechanics, quantum mechanics, and orbital mechanics (clos
 
 ### Ideas, not inertia
 
-I've been fortunate to have access to a time-honed cirriculum design and updated by practicioners of data science, and masters of pedagogy. I've also found myself asking 'Why?' quite a bit. As in 'Why do we teach this?', or 'Why use this analogy'. Each of these questions has lead to great conversations, and has helped me refine and/or reject existing approaches to teaching our curriculum. 
+I've been fortunate to have access to a time-honed curriculum design and updated by practitioners of data science, and masters of pedagogy. I've also found myself asking 'Why?' quite a bit. As in 'Why do we teach this?', or 'Why use this analogy'. Each of these questions has lead to great conversations, and has helped me refine and/or reject existing approaches to teaching our curriculum. 
 
 When in doubt, it's worth asking if the existing slides are the right way of presenting material, or those slides are just a ready convenience. 
 
@@ -44,7 +44,7 @@ After all, work is easier when you like and appreciate the people you work with.
 
 ### Every success counts
 
-I stuggle to thank people for the work they do, and to congratulate them for the successes they achieve. Culturally, within tech we tend to hyper-focus on optimization, often at the expense of existing progress. 
+I struggle to thank people for the work they do, and to congratulate them for the successes they achieve. Culturally, within tech we tend to hyper-focus on optimization, often at the expense of existing progress. 
 
 In all stages of life, and particularly when making a major investment your career, it's also easy to focus on your failures and loose track of your successes. 
 
