@@ -1,8 +1,8 @@
-# Cheat Sheet: Linear Regression Model Evaluation
+# [Cheat Sheet: Linear Regression Model Evaluation](https://www.hergertarian.com/cheat-sheet-linear-regression-model-evaluation)
 
 **tl;dr:** Cheat sheet for linear regression metrics, and common approaches to improving metrics 
 
-![Rexthor](resources/linear_regression_2x.png)
+![Rexthor](/s/linear_regression_2x.png)
 
 *One of the many reasons we care about model evaluation. Image courtesy the fantastic [XKCD](https://xkcd.com/1725/)*
 
@@ -22,7 +22,7 @@ I'll also highlight that most of my work has been in leading [Deep Learning](htt
 Below are the most common and most fundamental metrics for linear regression (OLS) models. This list is a work in 
 progress, so feel free to reach out with any corrections, or stronger descriptions. 
 
-![Cheat sheet](resources/cheat_sheet.jpg)
+![Cheat sheet](/s/cheat_sheet.jpg)
 
 ### Correcting issues
 

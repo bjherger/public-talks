@@ -40,7 +40,7 @@
 
 ## Cheat sheet
 
-![Cheat sheet](resources/cheat_sheet.jpg)
+![Cheat sheet](s/cheat_sheet.jpg)
 
 ### Correcting issues
 
