@@ -1,4 +1,4 @@
-# Learning, by Teaching
+# [Learning, by Teaching](https://www.hergertarian.com/learning-by-teaching)
 
 **tl;dr:** Teaching Data Science is a humbling, impactful opportunity. I've helped a group of individuals leap forward in their career, and they've helped me leap forward in mine. 
 
