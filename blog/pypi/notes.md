@@ -1,6 +1,6 @@
 # Meta
 
-# Outline
+# Notes
 
 ## Cheat sheet: Getting a package on PyPI
 
@@ -10,10 +10,11 @@
 ## Defaults
 
  - Documentation & documentation hosting
- - Mechanics of posting to PyPI
- - Structuring code
- - Planning / feature roll out
-   - Testing
+   - Hosting: https://docs.readthedocs.io/en/latest/getting_started.html
+   - Generating documentation: http://www.sphinx-doc.org/en/master/, with autodoc
+   - Markdown rendering: m2r
+ - Mechanics of posting to PyPI: https://packaging.python.org/tutorials/packaging-projects/
+ - Testing: https://travis-ci.org/ for uploads
 
 ## Narrative
 
@@ -21,3 +22,5 @@
  - Drafted at C1 ML COE
  - Personal projects
  - Goals: Wanted to share, experience building a package
+ 
+
