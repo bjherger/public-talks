@@ -28,6 +28,10 @@ Or: Notes to myself to make this easier next time
 ## Ongoing Development
 
  - Mechanics of posting to PyPI: https://packaging.python.org/tutorials/packaging-projects/
+ - Documentation & documentation hosting
+   - Hosting: https://docs.readthedocs.io/en/latest/getting_started.html
+   - Generating documentation: http://www.sphinx-doc.org/en/master/, with autodoc
+   - Markdown rendering: m2r
  - Testing: https://travis-ci.org/ for uploads
 
 
