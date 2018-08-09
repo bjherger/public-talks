@@ -6,21 +6,14 @@
 
 ## Why?
 
-Publishing a Python package is a surprisingly rough process, which requires tying together many different solutions, 
-often with brittle interchanges. While the content of Python packages can vary wildly, I'd like to focus on a workflow
-that lowers the barrier to entry.
+Publishing a Python package is a surprisingly rough process, which requires tying together many different solutions 
+with brittle interchanges. While the content of Python packages can vary wildly, I'd like to focus on the workflow
+for getting packages out into the world. 
 
-I knew from colleagues and from a few failed attempts that writing and publishing a package to PyPI (the Python 
-Package Index, which backs `pip`) would be a daunting experience. However, I savor a challenge, and boy what a challenge 
-it was. 
+I knew from colleagues and from a few failed attempts that writing and publishing a package would be a daunting 
+experience. However, I savor a challenge, and boy what a challenge it was. 
 
-To give a bit of back story, I've worked in deep learning for a while, and wanted to build a package that allows users 
-to rapidly build and iterate on deep learning models. I'd borrowed many of the concepts from kaggle grandmasters, and 
-iterated on many of the concepts while leading teams within Capital One's Machine Learning center of excellence.  
-
-However, my ulterior motive with this project was to step up to the challenge of publishing a package. I'll
-save the story of [keras-pandas](https://github.com/bjherger/keras-pandas), and instead focus on a default path for 
-getting packages on PyPI. 
+Here are my 'notes to self' for making the process smoother next time, and lowering the barrier to entry for others
 
 ## Default path
 
@@ -60,3 +53,9 @@ your work out there:
  runs unittests with commit and PR, helping to prevent releasing bugs into the wild.
  
 Congrats! You now written, documented, and released a package! Lather, rinse & repeat. 
+
+## Backstory
+
+To give a bit of back story, I've worked in deep learning for a while and wanted to build a package that allows users 
+to rapidly build and iterate on deep learning models. Through borrowing concepts from kaggle grandmasters, and 
+iterated on many of the concepts while leading teams within Capital One's Machine Learning center of excellence. 
