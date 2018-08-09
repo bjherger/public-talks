@@ -46,11 +46,11 @@ your work out there:
  These packages are what are actually uploaded to the PyPI servers, and downloaded by other users.  
  - **PyPI Upload:** Second, we'll upload our packages to PyPI. The [Python.org](https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives)
  instructions cover most of the steps to upload to the test environment. To upload to the actual environment, 
- run `twine upload -u hergertarian  dist/*`. Congrats! Your package is now public!
- - **Continuous integration:** One things are up and running, it's helpful to set up [Travis CI](https://travis-ci.org/). 
- While many competitors exist, travis is common, free, and easy to setup & use. For those who are unfamiliar, 
+ run `twine upload -u PYPI_USERNAME  dist/*`. Congrats! Your package is now public!
+ - **Continuous integration:** Once things are up and running, it's helpful to set up [Travis CI](https://travis-ci.org/). 
+ While many competitors exist, Travis CI is common, free, and easy to setup & use. For those who are unfamiliar, 
  [continuous integration](https://www.atlassian.com/continuous-delivery/continuous-integration-intro) can automatically 
- runs unittests with commit and PR, helping to prevent releasing bugs into the wild.
+ runs unittests for commits and PRs, helping to prevent releasing bugs into the wild.
  
 Congrats! You now written, documented, and released a package! Lather, rinse & repeat. 
 
