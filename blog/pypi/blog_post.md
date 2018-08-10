@@ -4,6 +4,10 @@
 
 **tl;dr:** TODO
 
+![](s/readthedocs.png)
+
+*The final product*
+
 ## Why?
 
 Publishing a Python package is a surprisingly rough process, which requires tying together many different solutions 
@@ -37,6 +41,10 @@ A strong workflow while building out the package might look like:
  overhead of other packages, and should be the default until you actively need a missing feature 
 
 ## Releasing
+
+![](s/travis.png)
+
+*Every programmer's dream: A passing CI build*
 
 Once you've got a working code base and (you think) you're ready to share it with the world, there a few steps to get 
 your work out there:
