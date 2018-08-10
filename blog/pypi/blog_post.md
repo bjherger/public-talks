@@ -1,8 +1,8 @@
-# Cheat sheet: Publishing a Python Package
+# [Cheat sheet: Publishing a Python Package](https://www.hergertarian.com/cheat-sheet-publishing-a-python-package)
 
 ## Or: Notes to myself to make publishing a package easier next time
 
-**tl;dr:** TODO
+**tl;dr:** Notes and workflow for efficiently writing and publishing a python package 
 
 ![](s/readthedocs.png)
 
