@@ -4,7 +4,7 @@
 
 **tl;dr:** Notes and workflow for efficiently writing and publishing a python package 
 
-![](s/readthedocs.png)
+![](/s/readthedocs.png)
 
 *The final product*
 
@@ -42,7 +42,7 @@ A strong workflow while building out the package might look like:
 
 ## Releasing
 
-![](s/travis.png)
+![](/s/travis.png)
 
 *Every programmer's dream: A passing CI build*
 
