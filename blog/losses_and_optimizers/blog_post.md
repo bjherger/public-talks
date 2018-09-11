@@ -1,4 +1,4 @@
-# Cheat sheet: Deep learning losses & optimizers
+# [Cheat sheet: Deep learning losses & optimizers](https://www.hergertarian.com/cheat-sheet-deep-learning-losses-optimizers)
 
 **tl;dr:** Sane defaults for deep learning loss functions and optimizers, followed by in-depth descriptions. 
 
@@ -25,7 +25,7 @@ are all built into keras-pandas.
 
 If you're solely interested in building a model, look no further; you can pull the defaults from the table below:
 
-![](s/defaults.jpg)
+![](/s/defaults.jpg)
 
 ## What's goin' on?
 
@@ -38,18 +38,18 @@ Before we go on, let's define our notation. This notation is different than many
 [theano's documentation](http://deeplearning.net/software/theano/library/tensor/nnet/nnet.html#theano.tensor.nnet.nnet.categorical_crossentropy)), 
 however it allows for a succinct and internally consistent discussion. 
 
-![](s/notation.jpg)
+![](/s/notation.jpg)
 
 ### Losses
 
 Losses are relatively straight forward for numerical variables, and a lot more interesting for categorical variables. 
 
-![](s/losses.jpg)
+![](/s/losses.jpg)
 
 ### Optimizers
 
 Finally, the world of optimizers is still under active development (and more of an art than a science). However, a few
 industry defaults have emerged.
 
-![](s/optimizers.jpg)
+![](/s/optimizers.jpg)
  
