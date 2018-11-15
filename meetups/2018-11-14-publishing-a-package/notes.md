@@ -23,7 +23,7 @@ Based on [Cheat sheet: Publishing a Python Package](https://www.hergertarian.com
  - Release your project
  - The world is a wonderful place
 
-#### Default pipeline
+#### Cheat sheet
 
  - Design and scope your project
    - Actually whiteboard out modules, classes and functions
