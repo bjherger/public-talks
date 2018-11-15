@@ -4,7 +4,7 @@ Based on [Cheat sheet: Publishing a Python Package](https://www.hergertarian.com
 
 ## Meta
 
- - Audience: Familiar w/ python, maybe familiar w/ ML
+ - Audience: Familiar w/ Python, maybe familiar w/ ML
  - Have used packages
  - Probably haven't written packages
 
@@ -50,5 +50,5 @@ Based on [Cheat sheet: Publishing a Python Package](https://www.hergertarian.com
 
  - Python is a batteries included language
    - Except for when you're the one building toys
- - The process isn't difficult, but also isnt' well documented
+ - The process isn't difficult, but also isn't well documented
  - Imitation is the sincerest form of flattery
