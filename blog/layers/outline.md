@@ -1,4 +1,4 @@
-# [Intro to Keras Layers](https://www.hergertarian.com/keras-layers-intro)
+# [Cheat sheet: Keras & Deep Learning layers](https://www.hergertarian.com/keras-layers-intro)
 
 ## Part 0: Intro
 
@@ -42,17 +42,8 @@ Some layers have 1D and 2D varieties. A good rule of thumb is:
 
 ### Cheat sheet
 
-| Layer         | Data Types               | Weights from last layer                       | Comment                                                                                    | Further Reading                                                                        | Keras docs                                              |
-|---------------|--------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------------------------------------------------------|
-| Input         | All                      | There are none!                               |                                                                                            |                                                                                        |                                                         |
-| Embedding     | Categorical, text        | OHE Categorical input-> vector                | Word2Vec is an example of an embedding                                                     | [link](https://arxiv.org/abs/1604.06737)                                               | [link](https://keras.io/layers/core/#input)             |
-| Dense         | All                      | Get fed to each neuron                        |                                                                                            | [link](http://www.deeplearningbook.org/contents/mlp.html)                              | [link](https://keras.io/layers/core/#dense)             |
-| Dropout       | Most                     | Get fed to each neuron, with some probability | Useful for regularization                                                                  | [link](http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf)            | [link](https://keras.io/layers/core/#dropout)           |
-| Convolutional | Text, time series, image | Adjacent weights get combined                 | Foundational for computer vision. Generally paired w/ Max Pooling                          | [link](http://www.deeplearningbook.org/contents/convnets.html)                         | [link](https://keras.io/layers/convolutional/)          |
-| Max Pooling   | Text, time series, image | Take max of adjacent weights                  | Foundational for computer vision. Generally paired w/ Convolutional                        | [link](http://www.deeplearningbook.org/contents/convnets.html)                         | [link](https://keras.io/layers/pooling/)                |
-| RNN           | Text, time series        | Each ‘timestep’ gets fed in order             | Generally replaced w/ LSTM                                                                 | [link](https://arxiv.org/pdf/1412.3555v1.pdf)                                          | [link](https://keras.io/layers/recurrent/)              |
-| LSTM          | Text, time series        | Each ‘timestep’ gets fed in order             | Smart improvement over RNN, to avoid vanishing gradients                                   | [link](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)                      | [link](https://keras.io/layers/recurrent/#lstm)         |
-| Bidirectional | Text, time series        | Get passed on both forwards and backwards     | Layer wrapper that gives time steps forwards and backwards. Standard for RNN / LSTM layers | [link](https://pdfs.semanticscholar.org/4b80/89bc9b49f84de43acc2eb8900035f7d492b2.pdf) | [link](https://keras.io/layers/wrappers/#bidirectional) |
+![Cheat sheet](/s/layers.jpg)
+
 
 ## Part 1: Standard layers
 
