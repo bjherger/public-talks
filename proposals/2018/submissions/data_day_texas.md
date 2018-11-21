@@ -1,5 +1,9 @@
 # Data day Texas
 
+https://datadaytexas.com/2019/proposals
+
+proposals@globaldatageeks.org
+
 ## Proposed title
 
 keras-pandas: A new package to democratize Deep Learning
