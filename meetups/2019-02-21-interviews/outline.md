@@ -22,7 +22,7 @@ Take aways
  - Calibrate internal expectations
  - Be honest how 'fixed' your expectations are
 
-### Build a funnel & Attract
+### Build a funnel & Attract talent
 
 Funnel
 
@@ -60,7 +60,7 @@ Hire
  - Know that it's a hot market
  - Keeping talent is cheaper than replacing talent
 
-### Notes to self
+### Pro tips
 
  - Diverse backgrounds
  - Seniority levels
